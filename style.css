@@ -1,0 +1,100 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    background-color: rgb(2, 70, 72);
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(2, 70, 72);
+}
+
+.content {
+    background-image: url(./img/pexels-jahoo-clouseau-575101.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: none;
+}
+
+/* STYLE HEADER */
+header,
+footer {
+    background-color: rgb(3, 101, 101);
+    color: white;
+}
+
+.headJS {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.headJS h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.headJS p {
+    margin: 0;
+}
+
+.baitap {
+    color: rgb(3, 101, 101);
+    padding: 20px 10px;
+}
+
+.baitap__1,
+.baitap__2,
+.baitap__3,
+.baitap__4 {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 55px 4px;
+
+}
+
+h4 {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.input__info {
+    border: 1px solid rgb(3, 101, 101);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 50%;
+    display: inline;
+}
+
+.xuat__info {
+    color: rgb(3, 101, 101);
+}
+
+.baitap {
+    display: flex;
+    justify-content: space-around;
+}
